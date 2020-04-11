@@ -1,0 +1,15 @@
+.container {
+    background: lightsteelblue;
+    margin: 6pc;
+    text-align: center;
+    height: 400px;
+}
+
+.inputs {
+    padding: 30px;
+}
+
+.input-field-1 {
+    padding-top: 20px;
+}
+
