@@ -29,16 +29,17 @@ label {
   text-align: center;
 }
 .keystate {
-  width: 300px;
+  width: 200px;
 }
 
 .code {
-  width: 400px;
+  width: 500px;
 }
 
 .titles {
+  padding-top: 1px;
   background: white;
-  height: 40px;
+  height: 72px;
   text-align: center;
 }
 
@@ -47,10 +48,7 @@ label {
   color: white;
 }
 
-.inputs {
-  padding: 30px;
-}
-
-.input-field-1 {
-  padding-top: 20px;
+#demo1 {
+  margin: 50px;
+  color: white;
 }

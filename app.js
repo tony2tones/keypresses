@@ -9,14 +9,21 @@ document.querySelector(".result-lose > p");
 
 function keyUp() {
   KEYSTATUS.innerHTML = "Key up";
-  showCode();
+  showCode(1);
 }
 function keyDown() {
   KEYSTATUS.innerHTML = "Key down";
+  showCode(2)
 }
 
-function showCode() {
-    console.log('log whatever')
+function showCode(num) {
+  console.log("log whatever");
+  if (num === 1) {
+    KEYDEMO.innerHTML = `document.addEventListener("keyup", keyUp)`;
+  }
+  if (num === 2) {
+    KEYDEMO.innerHTML = `document.addEventListener("keydown", keydown)`;
+  }
 }
 
 main = () => {
