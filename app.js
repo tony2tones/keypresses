@@ -19,10 +19,10 @@ function keyDown() {
 function showCode(num) {
   console.log("log whatever");
   if (num === 1) {
-    KEYDEMO.innerHTML = `document.addEventListener("keyup", keyUp)`;
+    KEYDEMO.innerHTML = `document.addEventListener("keyup", keyUp) function keyUp() { KEYSTATUS.innerHTML = "Key up"; }`;
   }
   if (num === 2) {
-    KEYDEMO.innerHTML = `document.addEventListener("keydown", keydown)`;
+    KEYDEMO.innerHTML = `document.addEventListener("keydown", keydown) function keyDown() { KEYSTATUS.innerHTML = "Key up"; }`;
   }
 }
 
