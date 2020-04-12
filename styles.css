@@ -1,15 +1,56 @@
+label,
+p {
+  color: white;
+}
+
+label {
+  text-align: center;
+  padding: 5px;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  background: black;
+}
 .container {
-    background: lightsteelblue;
-    margin: 6pc;
-    text-align: center;
-    height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background: black;
+  text-align: center;
+  height: 200px;
+}
+.flex {
+  margin-right: 30px;
+  padding: 20px;
+  border: 1px solid white;
+  background: black;
+  text-align: center;
+}
+.keystate {
+  width: 300px;
+}
+
+.code {
+  width: 400px;
+}
+
+.titles {
+  background: white;
+  height: 40px;
+  text-align: center;
+}
+
+#demo {
+  margin: 50px;
+  color: white;
 }
 
 .inputs {
-    padding: 30px;
+  padding: 30px;
 }
 
 .input-field-1 {
-    padding-top: 20px;
+  padding-top: 20px;
 }
-

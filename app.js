@@ -1,41 +1,27 @@
-
-
-
 //object repo
 
-const count = document.getElementById('#spanny');
-const button = document.getElementById('show');
-const input = document.getElementById('input');
+const KEYSTATUS = document.getElementById("demo");
+const KEYDEMO = document.getElementById("demo1");
+const KEYDOWN = document.getElementById("demo1");
+const button = document.getElementById("#show");
+const input = document.getElementById("#input");
+document.querySelector(".result-lose > p");
 
-
-// var myElement = document.getElementById("intro");
-
-document.addEventListener('keydown', logKey);
-
-function logKey(e) {
-    count.textContent.bold = "toasty";
-    // count += ` ${e.code}`;
-    console.log(e);
+function keyUp() {
+  KEYSTATUS.innerHTML = "Key up";
+  showCode();
+}
+function keyDown() {
+  KEYSTATUS.innerHTML = "Key down";
 }
 
-
-console.log('test');
-// i = 0;
-// $(document).ready(function () {
-//   $("#input1").keypress(function () {
-//     $("#spany").text((i += 1));
-//   });
-
-// });
-
-off = () => {
-    console.log('the button has been hit')
+function showCode() {
+    console.log('log whatever')
 }
 
 main = () => {
-    button.addEventListener("click", () => {
-        off();
-    })
-}
+  document.addEventListener("keyup", keyUp);
+  document.addEventListener("keydown", keyDown);
+};
 
 main();
