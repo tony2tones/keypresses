@@ -29,10 +29,10 @@ function showCode(num) {
     KEYDEMO.innerHTML = `document.addEventListener("keyup", keyUp) function keyUp() { KEYSTATUS.innerHTML = "Key up"; }`;
   }
   if (num === 2) {
-    KEYDEMO.innerHTML = `document.addEventListener("keydown", keydown) function keyDown() { KEYSTATUS.innerHTML = "Key up"; }`;
+    KEYDEMO.innerHTML = `document.addEventListener("keydown", keydown) function keyDown() { KEYSTATUS.innerHTML = "Key down"; }`;
   }
   if (num === 3) {
-    KEYPRESS.innerHTML = `document.addEventListener("keypress", keyPress) function keyPress() { KEYSTATUS.innerHTML = "Key up"; }`;
+    KEYPRESS.innerHTML = `document.addEventListener("keypress", keyPress) function keyPress() { KEYSTATUS.innerHTML = "Key press"; }`;
     setTimeout(function () {
       KEYPRESS.innerHTML = "";
     }, 2000);
