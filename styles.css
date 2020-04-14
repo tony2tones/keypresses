@@ -32,6 +32,10 @@ body {
 .container {
   padding-bottom: 2.5rem;
 }
+.list {
+    color: white;
+    text-align: left;
+}
 
 .content-wrapper {
   display: flex;
@@ -89,42 +93,33 @@ body {
 }
 
 .container-about {
-    width:100%;
-    height: 300px;
+  text-align: center;
+  width: 100%;
+  height: 300px;
 }
 
-/* .foot {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-  background-color: black;
-  color: white;
-  bottom: 0%;
-} */
-
 #footy {
-    width: 100%;
-    height: 44px;
-    margin-top: auto;
-    padding-top: 20px;
-    background: black;
-    color: white;
-    font-family: "Asap", sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    text-align: center;
-    position: fixed; /*Here's what sticks it*/
-    bottom: 0; /*to the bottom of the body/page*/
-  }
+  width: 100%;
+  height: 44px;
+  margin-top: auto;
+  padding-top: 20px;
+  background: black;
+  color: white;
+  font-family: "Asap", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  position: fixed; /*Here's what sticks it*/
+  bottom: 0; /*to the bottom of the body/page*/
+}
 
-  .footer-content {
-    color: white;
-  }
+.footer-content {
+  color: white;
+}
 
-  .link {
-    color: rgb(167, 252, 252);
-  }
-  .red {
-    color: rgb(255, 8, 0);
-  }
+.link {
+  color: rgb(167, 252, 252);
+}
+.red {
+  color: rgb(255, 8, 0);
+}
