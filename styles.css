@@ -4,6 +4,9 @@ p {
   color: white;
   font-family: "Roboto", sans-serif;
 }
+a {
+    color:white;https://stackoverflow.com/questions/3396754/onkeypress-vs-onkeyup-and-onkeydown
+}
 
 html,
 body {
@@ -112,6 +115,9 @@ body {
   text-align: center;
   width: 100%;
   height: 220px;
+}
+.list > ul > li {
+    align-content: flex-end;
 }
 
 #footy {
