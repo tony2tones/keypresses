@@ -6,7 +6,6 @@ p {
 }
 a {
   color: white;
-  https: //stackoverflow.com/questions/3396754/onkeypress-vs-onkeyup-and-onkeydown;
 }
 ul {
   list-style: none;
@@ -189,8 +188,19 @@ body {
   background-color: darkblue;
 }
 
-@media only screen and (max-width: 700px) {
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile {
+    display: block;
+    color: white;
+    padding:50px;
+    min-height: 350px;
+  }
+
   .background {
-    background-color: lightblue;
+    display: none;
   }
 }
