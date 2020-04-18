@@ -91,7 +91,7 @@ body {
 .titles {
   font-family: "Roboto", sans-serif;
   padding-top: 1px;
-  background: whit    e;
+  background: whit e;
   height: 72px;
   text-align: center;
 }
@@ -127,7 +127,7 @@ body {
 
 #footy {
   width: 100%;
-  height: 44px;
+  height: 130px;
   margin-top: auto;
   padding-top: 20px;
   background: black;
@@ -157,4 +157,30 @@ body {
 .social-media > img {
   height: 40px;
   width: auto;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.tooltip {
+  display: none;
 }
